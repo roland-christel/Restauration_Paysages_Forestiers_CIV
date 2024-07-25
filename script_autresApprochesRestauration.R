@@ -29,7 +29,7 @@ plot_ly(processedData) |>
                  zeroline = TRUE,
                  zerolinecolor = "black",
                  zerolinewidth = 2),
-    yaxis = list(title = "", showgrid = FALSE),
+    yaxis = list(title = "", showgrid = FALSE,automargin = TRUE, ticklen = 1),
     showlegend = FALSE,
     font = list(size = 15, color = "black")
   )
